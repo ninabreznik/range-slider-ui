@@ -1,0 +1,21 @@
+{
+  "name": "range-slider",
+  "version": "0.0.1",
+  "description": "ui component",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --open --live",
+    "build": "browserify demo/demo.js > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "range",
+    "slider"
+  ],
+  "author": "wizardamigos",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "budo": "^11.7.0"
+  }
+}
