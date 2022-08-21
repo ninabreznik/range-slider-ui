@@ -9,7 +9,6 @@ main.classList.add('demo')
 const style = document.createElement('style')
 style.textContent = `
   .demo {
-    border: 1px solid red;
     padding: 50px;
   }
 ` 
